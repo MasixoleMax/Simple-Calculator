@@ -1,27 +1,17 @@
-function addition(x, y){
-    return result = x + y
-}
 
-
-function addMany(array) {
+function add(answer) {
     var sum = 0;
-    for (let i in array) {
-      sum = sum + array[i];
-      
-    }
-    return sum;
-}
+  for (i = 0; i < answer.length; i++) {
+    sum = sum + answer[i]
+  };
+   return sum;
+};
 
 
-function Product(x, y){
-    return product = x * y;
-}
-
-function productMany(array){
-    
-    let product = 1;  
-    for (let i of array){
-        product = i * product;
-    }
-    return product;
-}
+function multiply(arr){
+    var result = 1;
+    for (i = 0; i < arr.length; i++){
+    result = result * arr[i];
+};
+ return result;
+};
