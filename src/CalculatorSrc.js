@@ -18,5 +18,7 @@ class SimpleCalculator {
  let addition = new SimpleCalculator();
  let multiplication = new SimpleCalculator();
 
+ module.exports = SimpleCalculator;
+
 addition.add(1,2,3,4);
 multiplication.multiply(1,2,3,4);

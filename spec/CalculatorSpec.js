@@ -1,10 +1,10 @@
+let SimpleCalculator = require('../src/CalculatorSrc');
+let test = new SimpleCalculator();
 
 describe("A simple calculator that can add 2 numbers", function(){
-        let test = new SimpleCalculator()
-    it ("should add 0 and 0 to return 0", function() {
+  it ("should add 0 and 0 to return 0", function() {
         
         expect(test.add(0,0)).toEqual(0);
-
     });
 
     it ("should return the sum of -1 and -1 as -2", function() {
@@ -20,7 +20,6 @@ describe("A simple calculator that can add 2 numbers", function(){
 
 describe("A simple calculator that can add as many numbers as it is given", function(){
     
-    let test = new SimpleCalculator();
     
     it ("should then be able to perfectly add all the numbers in the array", function() {
         
@@ -30,7 +29,6 @@ describe("A simple calculator that can add as many numbers as it is given", func
 
 describe("Checking simple calculator that multiply 2 numbers", function() {
     
-    let test = new SimpleCalculator();
     
     it ("should be able to multiply any two negative numbers", function() {
       
@@ -44,7 +42,6 @@ describe("Checking simple calculator that multiply 2 numbers", function() {
 });
 
 describe ("Simple calculator that can multiply multiple given numbers", function() {
-    let test = new SimpleCalculator();
        
         it ("should be able to multiply any amount of given numbers, negative and positive", function() {
              
